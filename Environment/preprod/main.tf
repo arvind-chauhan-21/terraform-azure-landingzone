@@ -1,8 +1,7 @@
 
-
 module "azurerm_resource_group" {
 
-    source = "../../module/azurerm_resource_group"
-    rgs = var.rgs
-  
+  source = "../../module/azurerm_resource_group"
+  rgs    = var.rgs
+
 }
